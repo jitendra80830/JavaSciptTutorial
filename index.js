@@ -72,3 +72,24 @@ console.log(ele);
 function onClicked(){
     //console.log("The button was clicked");
 }
+
+//Arrow fun
+
+sum = (a,b)=>{
+    return a+b;
+}
+
+logMesage = ()=>{
+
+    console.log("log message done");
+}
+//setTimeout and setInterval
+ setTimeout(logMesage , 2000);
+
+
+ //Local storage
+ localStorage.setItem('name','jitendra');
+ console.log(localStorage);
+ console.log(localStorage.getItem('name'));
+
+ //Json methods -Json.stringfy , Json.parse
